@@ -174,13 +174,3 @@ def send_it():
     file = 'static/test.txt'
     return send_from_directory(directory='static',filename='bg.jpg', as_attachment=True)
 
-# Define function for QtWebEngine
-def ui(location):
-    qt_app = QApplication(sys.argv)
-    web = QWebEngineView()
-    web.setWindowTitle("Finn_Jobb")
-    web.resize(1200, 900)
-    web.setZoomFactor(1.5)
-    web.load(QUrl(location))
-    web.show()
-    sys.exit(qt_app.exec_())

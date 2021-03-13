@@ -3,3 +3,6 @@ Include/
 Lib/
 
 Scripts/
+
+Flask_Finn/__pycache__
+
