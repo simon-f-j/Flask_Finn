@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+
+
+{% block content %}
+<img class="rounded-circle article-img" src="{{url_for('static',filename='profile_pics/' + current_user.image_file)}}">
+<h1 class='text-light'>Lagrede stillingsannonser</h1>
+<a type="button" class="btn btn-danger btn-sm m-1" href="/update_jobb">
+    Oppdater
+</a>
+{% for table in tables %}
+    {{ table|safe }}
+{% endfor %}
+{% endblock content %}
