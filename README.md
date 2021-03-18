@@ -1,7 +1,6 @@
 # Flask_Finn
-Flask app to access finn.no job data
-
-Using user authentication to store and retrieve scraped data in a SQLite database.
+Flask app som henter nøkkeldata fra stillingsannonser på Finn.no og TU.no ved å lime inn URL.
+Inkluderer bruker registrering og authentisering for å lagre/hente ut data fra en SQLite database.
 
 
 ![finn_jobb](https://user-images.githubusercontent.com/72814986/111627689-a039ad00-87ef-11eb-8039-3656b8177c5d.PNG)
