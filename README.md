@@ -4,10 +4,10 @@ Inkluderer registrering og authentisering av bruker for å lagre/hente ut data f
 
 En midlertidig demo av konseptet kan finnes på [simonfj.pythonanywhere.com](http://simonfj.pythonanywhere.com/)
 
-Bruk:
+Bruk:<br/>
 Man registrerer en bruker og legger til lenker for stillingsannonser fra finn.no eller TU.no, som blir lagret i databasen og kan hentes ut som en excel-fil.
-
-
+<br/>
+<br/>
 
 
 (kan evt. logge inn med "testuser@test.com" og "test" for å sjekke ut funksjonaliteten)
