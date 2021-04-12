@@ -9,7 +9,8 @@ Man registrerer en bruker og legger til lenker for stillingsannonser fra finn.no
 
 
 
-(kan bruke testuser@test.com og "test" for å sjekke ut funksjonalitet)
+
+(kan evt. logge inn med "testuser@test.com" og "test" for å sjekke ut funksjonaliteten)
 
 
 ![finn_jobb](https://user-images.githubusercontent.com/72814986/111627689-a039ad00-87ef-11eb-8039-3656b8177c5d.PNG)
