@@ -15,6 +15,5 @@ Man registrerer en bruker og legger til lenker for stillingsannonser fra finn.no
 
 
 
+![demo](https://user-images.githubusercontent.com/72814986/114991271-b04db680-9e99-11eb-8c92-2c1586f704ad.gif)
 
-![finn_jobb_2](https://user-images.githubusercontent.com/72814986/114384814-82156180-9b8f-11eb-8012-ce5430d0a7b4.PNG)
-![finn_jobb_3](https://user-images.githubusercontent.com/72814986/114384820-83468e80-9b8f-11eb-8917-1e9d5930aef6.PNG)
