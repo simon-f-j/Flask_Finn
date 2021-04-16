@@ -2,7 +2,7 @@
 En web-app som henter nøkkeldata fra stillingsannonser på Finn.no og TU.no ved å lime inn URL.
 Inkluderer registrering og authentisering av bruker for å lagre/hente ut data fra en SQLite database.
 
-En midlertidig demo av konseptet kan finnes på [simonfj.pythonanywhere.com](http://simonfj.pythonanywhere.com/)
+En midlertidig demo av konseptet kan finnes på [simonfj.pythonanywhere.com](https://simonfj.pythonanywhere.com/)
 
 Bruk:<br/>
 Man registrerer en bruker og legger til lenker for stillingsannonser fra finn.no eller TU.no, som blir lagret i databasen og kan hentes ut som en excel-fil.
