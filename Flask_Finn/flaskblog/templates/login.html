@@ -1,11 +1,12 @@
 {% extends "base.html" %}
 {% block content %}
-<div class="content-section">
+
+<div class="content-section bg-dark text-light">
     <form method="POST" action="">
         {{ form.hidden_tag() }}
-        <fieldset class="form-group">
-            <legend class="border-bottom mb-4">Log in</legend>
-            
+        <fieldset class="form-group bg-dark text-light">
+            <legend class="border-bottom mb-4 ">Logg inn</legend>
+
             <div class="form-group">
                 {{ form.email.label(class="form-control-label") }}
                 {% if form.email.errors %}
@@ -16,7 +17,7 @@
                         {% endfor %}
                     </div>
                 {% else %}
-                    {{ form.email(class="form-control form-control-lg") }}
+                    {{ form.email(class="form-control form-control-lg bg-dark text-light") }}
                 {% endif %}
             </div>
             <div class="form-group">
@@ -29,7 +30,7 @@
                         {% endfor %}
                     </div>
                 {% else %}
-                    {{ form.password(class="form-control form-control-lg") }}
+                    {{ form.password(class="form-control form-control-lg bg-dark text-light") }}
                 {% endif %}
             </div>
             <div class="form-check">
@@ -40,14 +41,13 @@
         <div class="form-group">
             {{ form.submit(class="btn btn-outline-info") }}
         </div>
-        <small class="text-muted ml-2">
-            <a href="#">Forgot Password?</a>
+        <small class="text-muted">
+            Mangler du en konto? <a class="ml-2" href="{{ url_for('register') }}">Registrer her</a>
+        </small></br>
+        <small class="text-muted">
+            Eller logg inn med 'testuser@test.com' og 'test'
         </small>
     </form>
 </div>
-<div class="border-top pt-3">
-    <small class="text-muted">
-        Need An Account? <a class="ml-2" href="{{ url_for('register') }}">Sign Up Now</a>
-    </small>
-</div>
+
 {% endblock content %}
