@@ -10,9 +10,6 @@ from flask_login import login_user, current_user, logout_user, login_required
 from flaskblog.finn_jobb import scraping
 import pandas as pd
 from sqlalchemy.sql import text
-from PyQt5.QtCore import *
-from PyQt5.QtWebEngineWidgets import *
-from PyQt5.QtWidgets import QApplication
 from threading import Timer
 import sys
 
