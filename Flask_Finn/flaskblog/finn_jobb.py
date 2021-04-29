@@ -4,8 +4,6 @@ import requests
 from bs4 import BeautifulSoup as bs
 from fake_useragent import UserAgent
 import pandas as pd
-from tkinter import *
-from tkinter import filedialog 
 import time
 
 
